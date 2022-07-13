@@ -1,32 +1,35 @@
+const jumlahBelanja = 1000000
+
+
 function DumbWaysJos() {
     const potongan = 21.1 / 100
     const minBelanja = 50000
     const maksDiskon = 20000
-    let jumlahBelanja
     const diskon = jumlahBelanja * potongan
-    const konversiPotongan = () => {
-            if(jumlahBelanja > minBelanja){
-                if(jumlahBelanja < maksDiskon){
-                    jumlahBelanja - diskon
-                }else{
-                    jumlahBelanja - maksDiskon
-                    console.log('Anda melebihi maksimal diskon sebesar Rp 20.000');
-                }
+
+
+    if(jumlahBelanja => minBelanja){
+        if(jumlahBelanja => maksDiskon){
+                const totalDiskonDibawah20000 = jumlahBelanja - diskon
+                console.log(totalDiskonDibawah20000);
             }else{
+                const totalDiskonDiatas20000 = jumlahBelanja - maksDiskon
+                console.log(totalDiskonDiatas20000);
+            }
+        }else{
                 console.log('Anda Belum Berhak Mendapatkan Diskon');
                 
-            }
         }
-        return konversiPotongan
-    }
+
+        return
+}
 
     function DumbWaysMantap() {
         const potongan = 30 / 100
         const minBelanja = 80000
         const maksDiskon = 40000
-        let jumlahBelanja
         const diskon = jumlahBelanja * potongan
-        const konversiPotongan = () => {
+        function konversi (){
             if( jumlahBelanja > minBelanja ){
                 if( jumlahBelanja < maksDiskon ){
                     jumlahBelanja - diskon
@@ -36,10 +39,12 @@ function DumbWaysJos() {
             }else{
                 console.log('anda tidak dapat diskon');
             }   
+
         }
-        return konversiPotongan
+            
+        return konversi
     }
 
-const hitungDumbWaysJos = DumbWaysJos()
+    DumbWaysJos()
 
-console.log(hitungDumbWaysJos.konversiPotongan);
+

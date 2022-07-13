@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(19, 43, 179);
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    flex: 50%;
+    height: 9vh;
+    background-color: rgb(51, 139, 216);
+}
+
+nav .left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+nav .right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.right .btn1 {
+    margin-right: 20px;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+}
+
+img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: rgb(85, 79, 79);
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.card a {
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.card .title {
+    margin-top: 20px;
+}
+
+.card .agility {
+    margin-top: 10px;
+}
+
+.card .agility h4 {
+    color: red;
+}
+
+.All {
+    margin-top: 50px;
+    min-height: 93vh;
+}

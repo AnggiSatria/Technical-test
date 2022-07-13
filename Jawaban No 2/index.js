@@ -1,4 +1,4 @@
-const jumlahBelanja = 1000000
+const jumlahBelanja = 100000
 
 
 function DumbWaysJos() {
@@ -8,8 +8,8 @@ function DumbWaysJos() {
     const diskon = jumlahBelanja * potongan
 
 
-    if(jumlahBelanja => minBelanja){
-        if(jumlahBelanja => maksDiskon){
+    if(jumlahBelanja > minBelanja){
+        if( jumlahBelanja > maksDiskon ){
                 const totalDiskonDibawah20000 = jumlahBelanja - diskon
                 console.log(totalDiskonDibawah20000);
             }else{
@@ -29,22 +29,22 @@ function DumbWaysJos() {
         const minBelanja = 80000
         const maksDiskon = 40000
         const diskon = jumlahBelanja * potongan
-        function konversi (){
+       
             if( jumlahBelanja > minBelanja ){
                 if( jumlahBelanja < maksDiskon ){
-                    jumlahBelanja - diskon
+                    const diatasDiskon = jumlahBelanja - diskon
+                    console.log(diatasDiskon);
                 }else{
-                    jumlahBelanja - maksDiskon
+                    const dibawahDiskon = jumlahBelanja - maksDiskon
+                    console.log(dibawahDiskon);
                 }
             }else{
                 console.log('anda tidak dapat diskon');
             }   
-
-        }
             
-        return konversi
+        return 
     }
 
-    DumbWaysJos()
+    DumbWaysMantap()
 
 
